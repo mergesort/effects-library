@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  InitialVelocity.swift
 //  
@@ -18,3 +19,4 @@ import Foundation
 public enum InitialVelocity {
     case slow, medium, fast
 }
+#endif

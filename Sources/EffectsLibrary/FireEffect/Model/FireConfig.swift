@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireConfig.swift
 //  
@@ -53,3 +54,4 @@ public struct FireConfig: BaseConfig {
         self.spreadRadius = spreadRadius
     }
 }
+#endif

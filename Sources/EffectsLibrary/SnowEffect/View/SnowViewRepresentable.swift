@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  SnowViewRepresentable.swift
 //  
@@ -56,3 +57,4 @@ struct SnowViewRepresentable: EffectsViewRepresentable {
         return cell
     }
 }
+#endif

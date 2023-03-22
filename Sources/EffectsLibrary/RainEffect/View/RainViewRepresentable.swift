@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  RainViewRepresentable.swift
 //  
@@ -54,3 +55,4 @@ struct RainViewRepresentable: EffectsViewRepresentable {
         return cell
     }
 }
+#endif

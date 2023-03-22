@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireworksConfig.swift
 //  
@@ -53,4 +54,4 @@ public struct FireworksConfig: BaseConfig {
         self.spreadRadius = spreadRadius
     }
 }
-
+#endif

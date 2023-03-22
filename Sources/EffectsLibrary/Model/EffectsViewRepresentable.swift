@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  EffectsViewRepresentable.swift
 //  
@@ -89,3 +90,4 @@ extension EffectsViewRepresentable {
         return containerLayer
     }
 }
+#endif

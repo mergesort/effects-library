@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireScene.swift
 //  
@@ -67,3 +68,4 @@ class FireScene: SKScene {
     }
 
 }
+#endif

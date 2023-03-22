@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  File.swift
 //  
@@ -18,3 +19,4 @@ import Foundation
 public enum EmitterPosition {
     case top, center, bottom
 }
+#endif

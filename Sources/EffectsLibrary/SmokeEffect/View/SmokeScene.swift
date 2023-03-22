@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  SmokeScene.swift
 //  
@@ -78,4 +79,4 @@ class SmokeScene: SKScene {
         }
     }
 }
-
+#endif

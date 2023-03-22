@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  SmokeContainerView.swift
 //  
@@ -25,3 +26,4 @@ struct SmokeContainerView: View {
         
     }
 }
+#endif

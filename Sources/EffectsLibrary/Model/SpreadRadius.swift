@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  SpreadRadius.swift
 //  
@@ -16,3 +17,4 @@ import Foundation
 public enum SpreadRadius {
     case low, medium, high
 }
+#endif

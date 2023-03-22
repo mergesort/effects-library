@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  RainView.swift
 //  
@@ -28,3 +29,4 @@ struct RainView_Previews: PreviewProvider {
         RainView()
     }
 }
+#endif

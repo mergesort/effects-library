@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  Lifetime.swift
 //  
@@ -17,3 +18,4 @@ import Foundation
 public enum Lifetime {
     case short, medium, long
 }
+#endif

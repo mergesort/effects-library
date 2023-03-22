@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FadeOut.swift
 //  
@@ -20,3 +21,4 @@ import Foundation
 public enum FadeOut {
     case none, slow, medium, fast
 }
+#endif

@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  Content.swift
 //  
@@ -100,3 +101,4 @@ extension String {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireworksConfig+DefaultValues.swift
 //  
@@ -66,3 +67,4 @@ extension FireworksConfig {
     }
 
 }
+#endif

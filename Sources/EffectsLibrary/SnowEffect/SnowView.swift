@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  SnowView.swift
 //  
@@ -28,3 +29,4 @@ struct SnowView_Previews: PreviewProvider {
         SnowView()
     }
 }
+#endif

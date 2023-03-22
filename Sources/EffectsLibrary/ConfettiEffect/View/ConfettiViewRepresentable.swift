@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  ConfettiViewRepresentable.swift
 //  
@@ -49,3 +50,4 @@ struct ConfettiViewRepresentable: EffectsViewRepresentable {
         return cell
     }
 }
+#endif

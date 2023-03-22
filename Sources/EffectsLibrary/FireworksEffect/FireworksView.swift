@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireworksView.swift
 //  
@@ -29,3 +30,4 @@ struct SwiftUIView_Previews: PreviewProvider {
         FireworksView()
     }
 }
+#endif

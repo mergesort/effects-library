@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  SmokeConfig.swift
 //  
@@ -53,4 +54,4 @@ public struct SmokeConfig: BaseConfig {
         self.spreadRadius = spreadRadius
     }
 }
-
+#endif

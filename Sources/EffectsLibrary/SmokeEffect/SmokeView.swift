@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  SmokeView.swift
 //  
@@ -28,3 +29,4 @@ struct SmokeView_Previews: PreviewProvider {
         SmokeView()
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  File.swift
 //  
@@ -15,3 +16,4 @@ import Foundation
 public enum FallDirection {
     case upwards, downwards
 }
+#endif

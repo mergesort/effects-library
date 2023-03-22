@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  BaseConfig.swift
 //  
@@ -23,3 +24,4 @@ protocol BaseConfig {
     var alphaSpeedValue: Float { get }
     var spreadRadiusValue: CGFloat { get }
 }
+#endif

@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  RainConfig.swift
 //  
@@ -73,3 +74,4 @@ public struct RainConfig: EmitterLayerConfig {
         self.fallDirection = fallDirection
     }
 }
+#endif

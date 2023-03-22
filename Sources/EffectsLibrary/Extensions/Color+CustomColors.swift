@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  Color+CustomColors.swift
 //  
@@ -13,3 +14,4 @@ extension UIColor {
     static public var fireRed: UIColor = UIColor(red: 78.0 / 255.0, green: 33.0 / 255.0, blue: 6.0 / 255.0, alpha: 1)
     
 }
+#endif

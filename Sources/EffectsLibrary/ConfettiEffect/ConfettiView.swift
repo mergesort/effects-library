@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  ConfettiView.swift
 //  
@@ -28,3 +29,4 @@ struct ConfettiView_Previews: PreviewProvider {
         ConfettiView()
     }
 }
+#endif

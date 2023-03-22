@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  File.swift
 //  
@@ -14,3 +15,4 @@ extension UIImage {
     }
     
 }
+#endif

@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireworksScene.swift
 //  
@@ -112,3 +113,4 @@ class FireworksScene: SKScene {
         )
     }
 }
+#endif

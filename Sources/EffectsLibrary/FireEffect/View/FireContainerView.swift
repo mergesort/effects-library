@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireContainerView.swift
 //  
@@ -24,3 +25,4 @@ struct FireContainerView: View {
         return FireScene(size: size, config: config)
     }
 }
+#endif

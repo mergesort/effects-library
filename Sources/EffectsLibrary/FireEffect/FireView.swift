@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireView.swift
 //  
@@ -28,3 +29,4 @@ struct FireView_Previews: PreviewProvider {
         FireView()
     }
 }
+#endif

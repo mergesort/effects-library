@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireConfig+DefaultValues.swift
 //  
@@ -66,3 +67,4 @@ extension FireConfig {
     }
     
 }
+#endif

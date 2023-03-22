@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  FireworksContainerView.swift
 //  
@@ -24,3 +25,4 @@ struct FireworksContainerView: View {
         return FireworksScene(size: size, config: config)
     }
 }
+#endif

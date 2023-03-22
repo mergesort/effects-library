@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  ConfettiConfig.swift
 //  
@@ -79,3 +80,4 @@ public struct ConfettiConfig: EmitterLayerConfig {
         self.fallDirection = fallDirection
     }
 }
+#endif

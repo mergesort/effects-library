@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  ConfettiConfig+DefaultValues.swift
 //  
@@ -65,3 +66,4 @@ extension ConfettiConfig {
         }
     }
 }
+#endif

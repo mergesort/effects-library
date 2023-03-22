@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  String+ImageNames.swift
 //  
@@ -12,3 +13,4 @@ public extension String {
     static var raindrop = "raindrop"
     static var snow = "snow"
 }
+#endif

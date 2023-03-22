@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  SmokeConfig+DefaultValues.swift
 //  
@@ -66,3 +67,4 @@ extension SmokeConfig {
     }
 
 }
+#endif

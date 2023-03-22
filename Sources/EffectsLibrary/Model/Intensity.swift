@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  File.swift
 //  
@@ -17,3 +18,4 @@ import Foundation
 public enum Intensity {
     case low, medium, high
 }
+#endif

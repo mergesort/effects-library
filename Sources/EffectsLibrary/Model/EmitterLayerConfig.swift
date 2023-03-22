@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 //
 //  EmitterLayerConfig.swift
 //  
@@ -11,3 +12,4 @@ protocol EmitterLayerConfig: BaseConfig {
     var emitterPosition: EmitterPosition { get }
     var clipsToBounds: Bool { get }
 }
+#endif
