@@ -1,4 +1,4 @@
-#if canImport(UIKit)
+#if canImport(UIKit) && !os(watchOS)
 //
 //  FireContainerView.swift
 //  
@@ -7,6 +7,7 @@
 //
 
 import SwiftUI
+#if canImport(SpriteKit)
 import SpriteKit
 
 struct FireContainerView: View {
@@ -25,4 +26,5 @@ struct FireContainerView: View {
         return FireScene(size: size, config: config)
     }
 }
+#endif
 #endif
