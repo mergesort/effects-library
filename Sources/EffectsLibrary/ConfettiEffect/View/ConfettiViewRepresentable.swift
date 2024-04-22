@@ -1,11 +1,11 @@
-#if canImport(UIKit) && !os(watchOS)
+#if canImport(UIKit)
 //
 //  ConfettiViewRepresentable.swift
 //  
 //
 //  Created by Stefan Blos on 10.03.22.
 //
-
+import CoreAnimation
 import SwiftUI
 
 struct ConfettiViewRepresentable: EffectsViewRepresentable {
