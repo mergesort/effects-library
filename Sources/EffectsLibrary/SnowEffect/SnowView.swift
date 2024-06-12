@@ -1,11 +1,10 @@
-#if canImport(UIKit)
+#if canImport(UIKit) && !os(watchOS)
 //
 //  SnowView.swift
 //  
 //
 //  Created by Stefan Blos on 11.03.22.
 //
-
 import SwiftUI
 
 public struct SnowView: View {

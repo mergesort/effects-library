@@ -1,4 +1,4 @@
-#if canImport(UIKit)
+#if canImport(UIKit) && !os(watchOS)
 //
 //  SmokeScene.swift
 //  
@@ -23,7 +23,7 @@ class SmokeScene: SKScene {
         fatalError("init(coder:) has not been implemented")
     }
     
-    
+    // TODO: Replace with sceneDidLoad which is supported on watchOS
     override func didMove(to view: SKView) {
         launchSmoke()
     }
